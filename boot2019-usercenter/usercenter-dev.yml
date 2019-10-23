@@ -1,2 +1,27 @@
 user:
   name: test005
+
+# token配置
+token:
+  # token过期时间一周
+  expiresSecond: 604800
+  # 后台管理,过期时间两小时
+  backendExpiressSecond: 7200
+  properties:
+    ios:
+      type: app
+      refreshSecond: 604800
+      expireSecond: 86400
+    android:
+      type: app
+      refreshSecond: 604800
+      expireSecond: 3600
+    webclient:
+      type: app
+      refreshSecond: 7200
+      expireSecond: 3600
+    webadmin:
+      type: admin
+      refreshSecond: 7200
+      expireSecond: 3600
+      role: admin

@@ -1,0 +1,4 @@
+token:
+  clientId: 001
+  base64Secret: d3V4aWFvYmluZ0Bib290MjAxOS5jb20=
+  name: app
