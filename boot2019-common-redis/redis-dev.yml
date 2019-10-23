@@ -1,4 +1,11 @@
-token:
-  clientId: 001
-  base64Secret: d3V4aWFvYmluZ0Bib290MjAxOS5jb20=
-  name: app
+spring:
+  redis:
+    database: 0
+    host: 172.16.10.202
+    port: 6379
+    password:
+    pool:
+      max-wait: -1
+      max-idle: 10
+      min-idle: 10
+    timeout: 5000
