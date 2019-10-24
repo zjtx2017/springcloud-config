@@ -2,3 +2,23 @@ token:
   clientId: 001
   base64Secret: d3V4aWFvYmluZ0Bib290MjAxOS5jb20=
   name: app
+  # token过期时间一周
+  expiresSecond: 604800
+  properties:
+    ios:
+      type: app
+      refreshSecond: 604800
+      expireSecond: 86400
+    android:
+      type: app
+      refreshSecond: 604800
+      expireSecond: 3600
+    web:
+      type: client
+      refreshSecond: 7200
+      expireSecond: 3600
+    portal:
+      type: manager
+      refreshSecond: 7200
+      expireSecond: 3600
+      role: admin
